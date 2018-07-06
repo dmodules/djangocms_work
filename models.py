@@ -20,6 +20,7 @@ class Work(models.Model):
     description = models.TextField(_('Description'), null=True,blank=True)
     image = FilerImageField(null=True, blank=True, related_name="image_work")
     youtube_id = models.CharField(_('Youtube ID'), max_length=100)
+    home_page = models.BooleanField()
 
     def __unicode__(self):
         return self.name
