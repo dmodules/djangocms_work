@@ -1,5 +1,5 @@
 =====
-DJANGOCMS WORK
+DJANGOCMS WORK (PORTFOLIO app)
 =====
 
 DJANGO_CMS WORK is a simple DjangoCMS app to add your best works from your customers.
